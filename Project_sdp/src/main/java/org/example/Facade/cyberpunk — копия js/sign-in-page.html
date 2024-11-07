@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="col-md-4">
+        <h1 class="text-center">Registration</h1>
+        <form id="signUpForm">
+            <div class="form-group">
+                <label for="signupUsername">Username:</label>
+                <input type="text" class="form-control" id="signupUsername" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="signupFirstName">First Name:</label>
+                <input type="text" class="form-control" id="signupFirstName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="signupLastName">Last Name:</label>
+                <input type="text" class="form-control" id="signupLastName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="signupEmail">Email:</label>
+                <input type="email" class="form-control" id="signupEmail" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="signupPassword">Password:</label>
+                <input type="password" class="form-control" id="signupPassword" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
+            <div id="signupErrorMessage" class="text-danger text-center mt-2"></div>
+        </form>
+        <p class="text-center mt-3">Already have an account? <a href="login-page.html">Login</a></p>
+    </div>
+</div>
+    <script src="scripts/scr.js"></script>
+</body>
+</html>
